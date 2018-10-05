@@ -50,7 +50,6 @@ if (!isset($_GET['path'])) {
 } else {
     dirInlineName($_GET['path']);
     dirNames($_GET['path']);
-
 }
 
 
