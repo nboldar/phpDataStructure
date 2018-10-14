@@ -15,7 +15,7 @@ function ordinaryWay()
         $i++;
     }
 
-    while ($i>0){
+    while ($i > 0) {
         array_pop($arr);
         $i--;
     }
@@ -32,7 +32,7 @@ function iteratorWay()
         $arrIterator->enqueue("a" . $i);
         $i++;
     }
-    while ($i>0){
+    while ($i > 0) {
         $arrIterator->dequeue();
         $i--;
     }
