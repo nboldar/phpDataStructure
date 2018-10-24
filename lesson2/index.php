@@ -35,5 +35,4 @@ function merge(array $leftArr, array $rightArr)
     array_splice($resultArray, count($resultArray), 0, $rightArr);
     return $resultArray;
 }
-
 var_dump(sortByMerge($arr));
